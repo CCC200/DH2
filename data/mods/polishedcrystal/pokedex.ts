@@ -19,6 +19,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	annihilape: {
 		inherit: true,
+		abilities: {0: "Gorilla Tactics", 1: "Inner Focus", H: "Defiant"},
 	},
 	arbok: {
 		inherit: true,
@@ -112,6 +113,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	corsolagalar: {
 		inherit: true,
+		types: ["Ghost", "Rock"],
 	},
 	corsola: {
 		inherit: true,
@@ -128,9 +130,11 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	cursola: {
 		inherit: true,
+		types: ["Ghost", "Rock"],
 	},
 	cyndaquil: {
 		inherit: true,
+		abilities: {0: "Blaze", 1: "Flame Body", H: "Flash Fire"},
 	},
 	delibird: {
 		inherit: true,
@@ -171,6 +175,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	dudunsparce: {
 		inherit: true,
+		types: ["Normal", "Dragon"],
 	},
 	dugtrioalola: {
 		inherit: true,
@@ -180,6 +185,8 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	dunsparce: {
 		inherit: true,
+		types: ["Normal", "Ground"],
+		abilities: {0: "Serene Grace", 1: "Run Away", H: "Sand Stream"},
 	},
 	eevee: {
 		inherit: true,
@@ -238,6 +245,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	flareon: {
 		inherit: true,
+		abilities: {0: "Flash Fire", 1: "Drought", H: "Guts"},
 	},
 	forretress: {
 		inherit: true,
@@ -282,6 +290,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	golduck: {
 		inherit: true,
+		types: ["Water", "Psychic"],
 	},
 	golemalola: {
 		inherit: true,
@@ -336,6 +345,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	honchkrow: {
 		inherit: true,
+		baseStats: {hp: 105, atk: 125, def: 52, spa: 105, spd: 52, spe: 71},
 	},
 	hoothoot: {
 		inherit: true,
@@ -694,15 +704,18 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	primeape: {
 		inherit: true,
+		abilities: {0: "Gorilla Tactics", 1: "Anger Point", H: "Defiant"},
 	},
 	psyduck: {
 		inherit: true,
 	},
 	pupitar: {
 		inherit: true,
+		abilities: {0: "Shed Skin", H: "Battle Armor"},
 	},
 	quagsire: {
 		inherit: true,
+		baseStats: {hp: 95, atk: 95, def: 95, spa: 65, spd: 65, spe: 35},
 	},
 	quilava: {
 		inherit: true,
@@ -727,6 +740,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	rapidash: {
 		inherit: true,
+		types: ["Fire", "Fairy"],
 	},
 	raticatealola: {
 		inherit: true,
@@ -750,9 +764,12 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	rhyhorn: {
 		inherit: true,
+		abilities: {0: "Rock Head", 1: "Solid Rock", H: "Reckless"},
 	},
 	rhyperior: {
 		inherit: true,
+		types: ["Steel", "Rock"],
+		baseStats: {hp: 120, atk: 140, def: 130, spa: 55, spd: 60, spe: 40},
 	},
 	sandshrewalola: {
 		inherit: true,
@@ -863,6 +880,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	steelix: {
 		inherit: true,
+		baseStats: {hp: 75, atk: 90, def: 200, spa: 55, spd: 65, spe: 30},
 	},
 	sudowoodo: {
 		inherit: true,
@@ -872,6 +890,8 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	sunflora: {
 		inherit: true,
+		types: ["Grass", "Fire"],
+		baseStats: {hp: 75, atk: 55, def: 75, spa: 105, spd: 85, spe: 85},
 	},
 	sunkern: {
 		inherit: true,
@@ -936,6 +956,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	umbreon: {
 		inherit: true,
+		abilities: {0: "Synchronize", 1: "Magic Guard", H: "Inner Focus"},
 	},
 	unown: {
 		inherit: true,
@@ -967,6 +988,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	vileplume: {
 		inherit: true,
+		baseStats: {hp: 75, atk: 80, def: 85, spa: 120, spd: 100, spe: 50},
 	},
 	voltorbhisui: {
 		inherit: true,
@@ -1033,5 +1055,6 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	zubat: {
 		inherit: true,
+		abilities: {0: "Inner Focus", 1: "Anticipation", H: "Infiltrator"},
 	},
 };
