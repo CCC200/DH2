@@ -4000,7 +4000,7 @@ export const Formats: FormatList = [
 	{
 		name: "[Gen 9] Polished Crystal OU",
 		mod: 'polishedcrystal',
-		ruleset: ['Standard', 'Data Mod'],
+		ruleset: ['Standard NatDex', 'Data Mod'],
 		teambuilderFormat: 'National Dex',
 	},
 	{
