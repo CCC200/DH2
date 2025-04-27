@@ -857,13 +857,13 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	tangrowth: {
 		inherit: true,
 	},
-	taurospaldean: {
+	taurospaldea: {
 		inherit: true,
 	},
-	taurospaldeanfire: {
+	taurospaldeablaze: {
 		inherit: true,
 	},
-	taurospaldeanwater: {
+	taurospaldeaaqua: {
 		inherit: true,
 	},
 	tauros: {
@@ -971,7 +971,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	wobbuffet: {
 		inherit: true,
 	},
-	wooperpaldean: {
+	wooperpaldea: {
 		inherit: true,
 	},
 	wooper: {

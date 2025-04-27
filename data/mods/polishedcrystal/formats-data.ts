@@ -857,13 +857,13 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	tangrowth: {
 		tier: "OU ",
 	},
-	taurospaldean: {
+	taurospaldea: {
 		tier: "OU ",
 	},
-	taurospaldeanfire: {
+	taurospaldeablaze: {
 		tier: "OU ",
 	},
-	taurospaldeanwater: {
+	taurospaldeaaqua: {
 		tier: "OU ",
 	},
 	tauros: {
@@ -971,7 +971,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	wobbuffet: {
 		tier: "OU ",
 	},
-	wooperpaldean: {
+	wooperpaldea: {
 		tier: "OU ",
 	},
 	wooper: {
