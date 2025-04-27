@@ -182,9 +182,6 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	eevee: {
 		inherit: true,
 	},
-	egg: {
-		inherit: true,
-	},
 	ekans: {
 		inherit: true,
 	},

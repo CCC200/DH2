@@ -182,9 +182,6 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	eevee: {
 		tier: "OU ",
 	},
-	egg: {
-		tier: "OU ",
-	},
 	ekans: {
 		tier: "OU ",
 	},
