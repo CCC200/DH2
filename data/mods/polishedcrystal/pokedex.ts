@@ -50,6 +50,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	beedrill: {
 		inherit: true,
+		baseStats: {hp: 65, atk: 100, def: 40, spa: 45, spd: 90, spe: 115},
 	},
 	bellossom: {
 		inherit: true,
@@ -117,6 +118,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	corsola: {
 		inherit: true,
+		baseStats: {hp: 65, atk: 55, def: 115, spa: 105, spd: 115, spe: 35},
 	},
 	crobat: {
 		inherit: true,
@@ -127,6 +129,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	cubone: {
 		inherit: true,
+		abilities: {0: "Rock Head", 1: "Cursed Body", H: "Battle Armor"},
 	},
 	cursola: {
 		inherit: true,
@@ -199,6 +202,8 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	electivire: {
 		inherit: true,
+		types: ["Electric", "Fighting"],
+		baseStats: {hp: 75, atk: 123, def: 67, spa: 95, spd: 85, spe: 105},
 	},
 	electrodehisui: {
 		inherit: true,
@@ -211,6 +216,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	entei: {
 		inherit: true,
+		abilities: {0: "Pressure", 1: "Inner Focus", H: "Flash Fire"},
 	},
 	espeon: {
 		inherit: true,
@@ -242,6 +248,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	flaaffy: {
 		inherit: true,
+		baseStats: {hp: 70, atk: 60, def: 60, spa: 85, spd: 65, spe: 50},
 	},
 	flareon: {
 		inherit: true,
@@ -380,9 +387,12 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	jumpluff: {
 		inherit: true,
+		baseStats: {hp: 95, atk: 55, def: 70, spa: 55, spd: 95, spe: 110},
 	},
 	jynx: {
 		inherit: true,
+		baseStats: {hp: 70, atk: 60, def: 40, spa: 120, spd: 100, spe: 95},
+		abilities: {0: "Oblivious", 1: "Filter", H: "Dry Skin"},
 	},
 	kabuto: {
 		inherit: true,
@@ -426,6 +436,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	leafeon: {
 		inherit: true,
+		abilities: {0: "Leaf Guard", 1: "Natural Cure", H: "Chlorophyll"},
 	},
 	ledian: {
 		inherit: true,
@@ -476,6 +487,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	magnezone: {
 		inherit: true,
+		abilities: {0: "Magnet Pull", 1: "Levitate", H: "Analytic"},
 	},
 	mamoswine: {
 		inherit: true,
@@ -497,6 +509,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	marowakalola: {
 		inherit: true,
+		baseStats: {hp: 60, atk: 80, def: 110, spa: 50, spd: 80, spe: 70},
 	},
 	marowak: {
 		inherit: true,
@@ -611,6 +624,8 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	noctowl: {
 		inherit: true,
+		types: ["Ghost", "Flying"],
+		baseStats: {hp: 100, atk: 50, def: 50, spa: 96, spd: 96, spe: 70},
 	},
 	octillery: {
 		inherit: true,
@@ -663,6 +678,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	pikachu: {
 		inherit: true,
+		baseStats: {hp: 35, atk: 65, def: 40, spa: 60, spd: 50, spe: 95},
 	},
 	piloswine: {
 		inherit: true,
@@ -725,12 +741,14 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	qwilfish: {
 		inherit: true,
+		baseStats: {hp: 65, atk: 100, def: 100, spa: 75, spd: 55, spe: 85},
 	},
 	raichualola: {
 		inherit: true,
 	},
 	raichu: {
 		inherit: true,
+		baseStats: {hp: 60, atk: 100, def: 55, spa: 100, spd: 80, spe: 121},
 	},
 	raikou: {
 		inherit: true,
@@ -747,6 +765,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	raticate: {
 		inherit: true,
+		baseStats: {hp: 65, atk: 91, def: 60, spa: 50, spd: 70, spe: 107},
 	},
 	rattataalola: {
 		inherit: true,
@@ -819,6 +838,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	slowbrogalar: {
 		inherit: true,
+		baseStats: {hp: 95, atk: 100, def: 100, spa: 100, spd: 75, spe: 30},
 	},
 	slowbro: {
 		inherit: true,
@@ -884,6 +904,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	sudowoodo: {
 		inherit: true,
+		baseStats: {hp: 75, atk: 115, def: 130, spa: 30, spd: 80, spe: 30},
 	},
 	suicune: {
 		inherit: true,
@@ -950,6 +971,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	tyranitar: {
 		inherit: true,
+		abilities: {0: "Sand Stream", 1: "Battle Armor", H: "Unnerve"},
 	},
 	tyrogue: {
 		inherit: true,
@@ -1007,6 +1029,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	weavile: {
 		inherit: true,
+		abilities: {0: "Pressure", 1: "Technician", H: "Pickpocket"},
 	},
 	weedle: {
 		inherit: true,
