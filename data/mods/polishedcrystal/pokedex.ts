@@ -975,7 +975,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	tangrowth: {
 		inherit: true,
 	},
-	taurospaldea: {
+	taurospaldeacombat: {
 		inherit: true,
 	},
 	taurospaldeablaze: {

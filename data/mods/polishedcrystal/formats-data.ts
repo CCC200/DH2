@@ -854,7 +854,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	tangrowth: {
 		tier: "OU ",
 	},
-	taurospaldea: {
+	taurospaldeacombat: {
 		tier: "OU ",
 	},
 	taurospaldeablaze: {
