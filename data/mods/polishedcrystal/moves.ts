@@ -45,7 +45,6 @@ export const Moves: {[k: string]: ModdedMoveData} = {
     },
     furyswipes: {
         inherit: true,
-        name: "Fury Strikes",
         basePower: 20,
         accuracy: 85,
     },
@@ -134,5 +133,9 @@ export const Moves: {[k: string]: ModdedMoveData} = {
         inherit: true,
         basePower: 40,
         accuracy: 90,
-    }
+    },
+    moonlight: {
+        inherit: true,
+        type: "Normal",
+    },
 };
