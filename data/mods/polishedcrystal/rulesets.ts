@@ -1,6 +1,11 @@
 export const Rulesets: {[k: string]: ModdedFormatData} = {
     standardnatdex: {
         inherit: true,
+		ruleset: [
+			'Sleep Clause Mod', 'Species Clause', 'Nickname Clause', 'OHKO Clause',
+			'Evasion Clause', 'Endless Battle Clause', 'HP Percentage Mod', 'Cancel Mod',
+			'Freeze Clause Mod', 'Terastal Clause',
+		],
         onValidateTeam(team) {
 			/**@type {{[k: string]: true}} */
 			const tiers = ['Uber ', 'OU ', 'UUBL ', 'UU ', 'NU ', 'PU ', 'ZU ', 'NFE ',  'LC '];
