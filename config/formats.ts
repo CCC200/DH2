@@ -4002,6 +4002,13 @@ export const Formats: FormatList = [
 		mod: 'polishedcrystal',
 		ruleset: ['Standard NatDex', 'Data Mod'],
 		teambuilderFormat: 'National Dex',
+		onValidateTeam(team) {
+			for(const set of team) {
+				if(this.dex.species.get(set.species).tier === 'Uber ') {
+					return [set.species + ' is in Ubers, which is banned.'];
+				}
+			}
+		},
 	},
 	{
 		name: "[Gen 9] Ponymon",
