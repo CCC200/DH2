@@ -11,5 +11,15 @@ export const Rulesets: {[k: string]: ModdedFormatData} = {
 				}
 			}
 		},
-    }
+    },
+	littlecup: {
+		inherit: true,
+		onValidateTeam(team) {
+			for(const set of team) {
+				if(this.dex.species.get(set.species).tier !== 'LC ') {
+					return [set.species + ' is not available in Little Cup.'];
+				}
+			}
+		},
+	},
 };

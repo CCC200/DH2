@@ -4005,10 +4005,23 @@ export const Formats: FormatList = [
 		onValidateTeam(team) {
 			for(const set of team) {
 				if(this.dex.species.get(set.species).tier === 'Uber ') {
-					return [set.species + ' is in Ubers, which is banned.'];
+					return [set.species + ' is banned from OU.'];
 				}
 			}
 		},
+	},
+	{
+		name: "[Gen 9] Polished Crystal Ubers",
+		mod: 'polishedcrystal',
+		ruleset: ['Standard NatDex', 'Data Mod'],
+		teambuilderFormat: 'National Dex',
+	},
+	{
+		name: "[Gen 9] Polished Crystal LC",
+		mod: 'polishedcrystal',
+		ruleset: ['Standard NatDex', 'Little Cup', 'Data Mod'],
+		teambuilderFormat: 'National Dex',
+		searchShow: false,
 	},
 	{
 		name: "[Gen 9] Ponymon",
