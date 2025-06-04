@@ -4020,7 +4020,7 @@ export const Formats: FormatList = [
 	{
 		name: "[Gen 9] Polished Crystal AG",
 		mod: 'polishedcrystal',
-		ruleset: ['Data Mod', 'Terastal Clause'],
+		ruleset: ['Data Mod', 'Obtainable', 'Terastal Clause'],
 		teambuilderFormat: 'National Dex',
 		searchShow: false,
 	},
