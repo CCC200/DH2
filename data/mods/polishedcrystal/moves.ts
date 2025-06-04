@@ -743,7 +743,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	gyroball: {
 		inherit: true,
 	},
-	freshsnack: {
+	softboiled: {
+		inherit: true,
+	},
+	milkdrink: {
 		inherit: true,
 	},
 	metronome: {
