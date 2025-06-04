@@ -203,7 +203,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	thief: {
 		inherit: true,
 	},
-	dazzlingleam: {
+	dazzlinggleam: {
 		inherit: true,
 	},
 	energyball: {
@@ -1245,10 +1245,6 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		isNonstandard: "Unobtainable",
 	},
 	darkvoid: {
-		inherit: true,
-		isNonstandard: "Unobtainable",
-	},
-	dazzlinggleam: {
 		inherit: true,
 		isNonstandard: "Unobtainable",
 	},
