@@ -6,7 +6,7 @@ export const Rulesets: {[k: string]: ModdedFormatData} = {
 			'Obtainable', 'Species Clause', 'Nickname Clause', 'OHKO Clause', 'Evasion Clause', 'Endless Battle Clause',
 			'HP Percentage Mod', 'Cancel Mod',
 			// Polished specific
-			'Sleep Clause Mod', 'Freeze Clause Mod', 'Terastal Clause',
+			'Sleep Clause Mod', 'Freeze Clause Mod', 'Terastal Clause', 'DryPass Clause',
 		],
     },
 };
