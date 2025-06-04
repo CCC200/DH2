@@ -4000,26 +4000,20 @@ export const Formats: FormatList = [
 	{
 		name: "[Gen 9] Polished Crystal OU",
 		mod: 'polishedcrystal',
-		ruleset: ['Standard NatDex', 'Data Mod'],
+		ruleset: ['Standard', 'Data Mod'],
 		teambuilderFormat: 'National Dex',
-		onValidateTeam(team) {
-			for(const set of team) {
-				if(this.dex.species.get(set.species).tier === 'Uber ') {
-					return [set.species + ' is banned from OU.'];
-				}
-			}
-		},
+		banlist: ['Uber'],
 	},
 	{
 		name: "[Gen 9] Polished Crystal Ubers",
 		mod: 'polishedcrystal',
-		ruleset: ['Standard NatDex', 'Data Mod'],
+		ruleset: ['Standard', 'Data Mod'],
 		teambuilderFormat: 'National Dex',
 	},
 	{
 		name: "[Gen 9] Polished Crystal LC",
 		mod: 'polishedcrystal',
-		ruleset: ['Standard NatDex', 'Little Cup', 'Data Mod'],
+		ruleset: ['Standard', 'Little Cup', 'Data Mod'],
 		teambuilderFormat: 'National Dex',
 		searchShow: false,
 	},
