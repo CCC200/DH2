@@ -2052,10 +2052,6 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		inherit: true,
 		isNonstandard: "Unobtainable",
 	},
-	milkdrink: {
-		inherit: true,
-		isNonstandard: "Unobtainable",
-	},
 	mindblown: {
 		inherit: true,
 		isNonstandard: "Unobtainable",
