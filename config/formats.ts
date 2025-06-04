@@ -4018,6 +4018,13 @@ export const Formats: FormatList = [
 		searchShow: false,
 	},
 	{
+		name: "[Gen 9] Polished Crystal AG",
+		mod: 'polishedcrystal',
+		ruleset: ['Data Mod', 'Terastal Clause'],
+		teambuilderFormat: 'National Dex',
+		searchShow: false,
+	},
+	{
 		name: "[Gen 9] Ponymon",
 		mod: 'ponymonshowdown',
 		ruleset: ['Standard NatDex', 'OHKO Clause', 'Evasion Moves Clause', 'Species Clause', 'Terastal Clause', 'Sleep Clause Mod', 'Data Mod'],
