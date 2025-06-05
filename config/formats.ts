@@ -58,7 +58,7 @@ export const Formats: FormatList = [
 	{
 		name: "[Gen 3] Draft",
 		mod: 'gen3',
-		ruleset: ['Standard Draft', 'Baton Pass Stat Trap Clause', '!Evasion Abilities Clause', 'Serene Grace Flinch Clause', 'Confusion Clause'],
+		ruleset: ['Standard Draft', '!Team Preview', '!Evasion Abilities Clause', 'Baton Pass Stat Trap Clause', 'Serene Grace Flinch Clause', 'Confusion Clause'],
 		banlist: ['Sand Stream ++ Sand Veil', 'Sandstorm'],
 	},
 	// Default Metas
