@@ -42,6 +42,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	articuno: {
 		inherit: true,
+		abilities: {0: "Pressure", 1: "Snow Warning", H: "Snow Cloak"},
 	},
 	azumarill: {
 		inherit: true,
@@ -1129,6 +1130,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	zapdos: {
 		inherit: true,
+		abilities: {0: "Pressure", 1: "Drizzle", H: "Static"},
 	},
 	zubat: {
 		inherit: true,
