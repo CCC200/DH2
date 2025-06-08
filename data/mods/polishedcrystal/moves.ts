@@ -698,7 +698,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	poisonpowder: {
 		inherit: true,
 	},
-	disarmvoice: {
+	disarmingvoice: {
 		inherit: true,
 	},
 	moonblast: {
@@ -1269,10 +1269,6 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		isNonstandard: "Unobtainable",
 	},
 	diamondstorm: {
-		inherit: true,
-		isNonstandard: "Unobtainable",
-	},
-	disarmingvoice: {
 		inherit: true,
 		isNonstandard: "Unobtainable",
 	},
