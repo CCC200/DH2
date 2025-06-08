@@ -60,6 +60,7 @@ export const Formats: FormatList = [
 		mod: 'gen3',
 		ruleset: ['Standard Draft', '!Team Preview', '!Evasion Abilities Clause', 'Baton Pass Stat Trap Clause', 'Serene Grace Flinch Clause', 'Confusion Clause'],
 		banlist: ['Sand Stream ++ Sand Veil', 'Sandstorm'],
+		searchShow: false,
 	},
 	// Default Metas
 	// Please keep these here for testing / debugging
