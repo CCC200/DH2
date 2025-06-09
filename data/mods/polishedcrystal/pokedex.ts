@@ -582,6 +582,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	mewtwo: {
 		inherit: true,
+		abilities: {0: "Pressure", 1: "Insomnia", H: "Unnerve"},
 		otherFormes: ["Mewtwo-Armored"],
 		formeOrder: ["Mewtwo", "Mewtwo-Armored"],
 	},
