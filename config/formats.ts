@@ -41,6 +41,7 @@ export const Formats: FormatList = [
 		mod: 'polishedcrystal',
 		ruleset: ['Standard', 'Little Cup', 'Data Mod'],
 		teambuilderFormat: 'National Dex',
+		banlist: ['Uber', 'OU', 'UUBL', 'UU', 'RUBL', 'RU', 'NUBL', 'NU', 'PUBL', 'PU', 'ZUBL', 'ZU', 'NFE'],
 		searchShow: false,
 	},
 	{
