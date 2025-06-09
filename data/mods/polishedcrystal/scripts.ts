@@ -1,6 +1,7 @@
 export const Scripts: {[k: string]: ModdedBattleScriptsData} = {
 	inherit: 'gen9',
 	teambuilderConfig: {
+		graphicsGen: 2,
 		excludeStandardTiers: true,
 		customTiers: ["Uber", "OU", "UUBL", "UU", "RUBL", "RU", "NUBL", "NU", "PUBL", "PU", "ZUBL", "ZU", "NFE", "LC"],
 		excludeStandardItems: true,
