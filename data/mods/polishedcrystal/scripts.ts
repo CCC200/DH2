@@ -1,4 +1,5 @@
 export const Scripts: {[k: string]: ModdedBattleScriptsData} = {
+	inherit: 'gen9',
 	teambuilderConfig: {
 		excludeStandardItems: true,
 		customItems: [
