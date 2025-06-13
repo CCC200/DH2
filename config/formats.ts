@@ -20,7 +20,7 @@ The column value will be ignored for repeat sections.
 export const Formats: FormatList = [
 	// Pet Mods
 	{
-		section: "Pet Mods",
+		section: "GSC Mods",
 		column: 1,
 	},
 	{
@@ -52,7 +52,11 @@ export const Formats: FormatList = [
 		searchShow: false,
 	},
 	{
-		name: "[Gen 1] ColorPlus OU",
+		section: "RBY Mods",
+		column: 1,
+	},
+	{
+		name: "[Gen 1] ColorPlus OU (Alpha)",
 		mod: 'colorplus',
 		ruleset: ['Standard'],
 		banlist: ['Uber'],
@@ -60,7 +64,7 @@ export const Formats: FormatList = [
 	// Draft
 	{
 		section: "Draft League",
-		column: 1,
+		column: 2,
 	},
 	{
 		name: "[Gen 3] Draft",
