@@ -51,6 +51,12 @@ export const Formats: FormatList = [
 		teambuilderFormat: 'National Dex',
 		searchShow: false,
 	},
+	{
+		name: "[Gen 1] ColorPlus OU",
+		mod: 'colorplus',
+		ruleset: ['Standard'],
+		banlist: ['Uber'],
+	},
 	// Draft
 	{
 		section: "Draft League",
