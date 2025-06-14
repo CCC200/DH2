@@ -58,4 +58,14 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		gen: 1,
 		baseStats: {hp: 75, atk: 85, def: 200, spa: 55, spd: 55, spe: 30},
 	},
+	slowking: {
+		inherit: true,
+		gen: 1,
+		baseStats: {hp: 95, atk: 75, def: 80, spa: 110, spd: 110, spe: 30},
+	},
+	scizor: {
+		inherit: true,
+		gen: 1,
+		baseStats: {hp: 70, atk: 130, def: 100, spa: 55, spd: 55, spe: 65},
+	},
 };
