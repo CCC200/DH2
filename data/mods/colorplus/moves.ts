@@ -3,14 +3,17 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	crunch: {
 		inherit: true,
 		gen: 1,
-		type: "Dark",
 		category: "Special",
 	},
 	dragonbreath: {
 		inherit: true,
 		gen: 1,
-		type: "Dragon",
 		category: "Special",
+	},
+	shadowball: {
+		inherit: true,
+		gen: 1,
+		category: "Physical",
 	},
 	// Updated moves
 	bite: {
