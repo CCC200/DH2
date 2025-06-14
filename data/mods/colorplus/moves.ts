@@ -25,6 +25,11 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		gen: 1,
 		category: "Physical",
 	},
+	sludgebomb: {
+		inherit: true,
+		gen: 1,
+		category: "Physical",
+	},
 	// Updated moves
 	bite: {
 		inherit: true,
