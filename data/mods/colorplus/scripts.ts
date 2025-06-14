@@ -8,6 +8,8 @@ export const Scripts: ModdedBattleScriptsData = {
 					return true;
 				case 'dragonbreath':
 					return true;
+				case 'karatechop':
+					return true;
 			}
 		},
 	},

@@ -45,6 +45,9 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	clefable: {
 		tier: "UUBL",
 	},
+	machamp: {
+		tier: "UUBL",
+	},
 	// GSC evolutions
 	crobat: {
 		tier: "UU",
