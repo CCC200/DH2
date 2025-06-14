@@ -17,6 +17,12 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		type: "Dark",
 		category: "Special",
 	},
+	dragonbreath: {
+		inherit: true,
+		gen: 1,
+		type: "Dragon",
+		category: "Special",
+	},
     karatechop: {
 		inherit: true,
 		gen: 1,
