@@ -2,6 +2,14 @@ export const Scripts: ModdedBattleScriptsData = {
 	inherit: 'gen1',
 	teambuilderConfig: {
 		rbyTradebacks: true,
+		moveIsNotUseless(id: ID): boolean {
+			switch(id) {
+				case 'irontail':
+					return true;
+				case 'dragonbreath':
+					return true;
+			}
+		},
 	},
 	actions: {
 		inherit: true,
