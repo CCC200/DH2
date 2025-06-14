@@ -15,6 +15,16 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		gen: 1,
 		category: "Physical",
 	},
+	irontail: {
+		inherit: true,
+		gen: 1,
+		category: "Physical",
+	},
+	steelwing: {
+		inherit: true,
+		gen: 1,
+		category: "Physical",
+	},
 	// Updated moves
 	bite: {
 		inherit: true,
