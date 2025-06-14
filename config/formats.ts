@@ -56,10 +56,12 @@ export const Formats: FormatList = [
 		column: 1,
 	},
 	{
-		name: "[Gen 1] ColorPlus OU (Alpha)",
+		name: "[Gen 1] ColorPlus OU",
 		mod: 'colorplus',
 		ruleset: ['Standard'],
 		banlist: ['Uber'],
+		searchShow: false,
+		debug: true,
 	},
 	// Draft
 	{
