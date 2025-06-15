@@ -5,6 +5,11 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		gen: 1,
 		category: "Special",
 	},
+	feintattack: {
+		inherit: true,
+		gen: 1,
+		category: "Special",
+	},
 	dragonbreath: {
 		inherit: true,
 		gen: 1,
