@@ -3,14 +3,10 @@ export const Scripts: ModdedBattleScriptsData = {
 	teambuilderConfig: {
 		rbyTradebacks: true,
 		moveIsNotUseless(id: ID): boolean {
-			switch(id) {
-				case 'irontail':
-					return true;
-				case 'dragonbreath':
-					return true;
-				case 'karatechop':
-					return true;
-			}
+			const NOT_USELESS = [
+				'irontail', 'dragonbreath', 'karatechop',
+			];
+			if(NOT_USELESS.includes(id)) return true;
 		},
 	},
 	actions: {
