@@ -724,6 +724,8 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	pikachu: {
 		inherit: true,
 		baseStats: {hp: 35, atk: 65, def: 40, spa: 60, spd: 50, spe: 95},
+		cosmeticFormes: ["Pikachu-Chu-Chu", "Pikachu-Fly", "Pikachu-Pika", "Pikachu-Spark", "Pikachu-Surf"],
+		formeOrder: ["Pikachu", "Pikachu-Chu-Chu", "Pikachu-Fly", "Pikachu-Pika", "Pikachu-Spark", "Pikachu-Surf"],
 	},
 	piloswine: {
 		inherit: true,
@@ -1173,6 +1175,26 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	pichuspikyeared: {
 		name: "Pichu-Spiky-eared",
+		isCosmeticForme: true,
+	},
+	pikachuchuchu: {
+		name: "Pikachu-Chu-Chu",
+		isCosmeticForme: true,
+	},
+	pikachufly: {
+		name: "Pikachu-Fly",
+		isCosmeticForme: true,
+	},
+	pikachupika: {
+		name: "Pikachu-Pika",
+		isCosmeticForme: true,
+	},
+	pikachuspark: {
+		name: "Pikachu-Spark",
+		isCosmeticForme: true,
+	},
+	pikachusurf: {
+		name: "Pikachu-Surf",
 		isCosmeticForme: true,
 	},
 };
