@@ -624,7 +624,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	pikachu: {
-		tier: "OU",
+		tier: "NFE",
 	},
 	piloswine: {
 		tier: "OU",
@@ -678,7 +678,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "NFE",
 	},
 	qwilfishhisui: {
-		tier: "OU",
+		tier: "NFE",
 	},
 	qwilfish: {
 		tier: "OU",
@@ -4339,6 +4339,10 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		isNonstandard: "Unobtainable",
 	},
 	terapagosstellar: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
+	ironcrown: {
 		tier: "Illegal",
 		isNonstandard: "Unobtainable",
 	},
