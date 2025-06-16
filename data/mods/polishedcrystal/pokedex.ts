@@ -197,6 +197,8 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	dudunsparce: {
 		inherit: true,
 		types: ["Normal", "Dragon"],
+		cosmeticFormes: ["Dudunsparce-Three-Segment"],
+		formeOrder: ["Dudunsparce", "Dudunsparce-Three-Segment"],
 	},
 	dugtrioalola: {
 		inherit: true,
@@ -353,6 +355,8 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	gyarados: {
 		inherit: true,
+		cosmeticFormes: ["Gyarados-Red"],
+		formeOrder: ["Gyarados", "Gyarados-Red"],
 	},
 	happiny: {
 		inherit: true,
@@ -705,6 +709,8 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	pichu: {
 		inherit: true,
+		cosmeticFormes: ["Pichu-Spiky-eared"],
+		formeOrder: ["Pichu", "Pichu-Spiky-eared"],
 	},
 	pidgeot: {
 		inherit: true,
@@ -1155,6 +1161,18 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	arbokkoga: {
 		name: "Arbok-Koga",
+		isCosmeticForme: true,
+	},
+	dudunsparcethreesegment: {
+		name: "Dudunsparce-Three-Segment",
+		isCosmeticForme: true,
+	},
+	gyaradosred: {
+		name: "Gyarados-Red",
+		isCosmeticForme: true,
+	},
+	pichuspikyeared: {
+		name: "Pichu-Spiky-eared",
 		isCosmeticForme: true,
 	},
 };
