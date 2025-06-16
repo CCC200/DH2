@@ -1,5 +1,31 @@
 export const Scripts: {[k: string]: ModdedBattleScriptsData} = {
 	inherit: 'gen9',
+	init() {
+		// Convert cosmetic formes into proper dex data
+		for(const i in this.data.Pokedex) {
+			if(this.modData('Pokedex', i).isCosmeticForme) {
+				const baseID = this.toID(this.modData('Pokedex', i).name.split("-")[0]);
+				const baseSpecies = this.modData('Pokedex', baseID);
+				// Copy data from base forme
+				this.modData('Pokedex', i).num = baseSpecies.num;
+				this.modData('Pokedex', i).baseSpecies = baseSpecies.name;
+				this.modData('Pokedex', i).types = baseSpecies.types;
+				this.modData('Pokedex', i).baseStats = baseSpecies.baseStats;
+				this.modData('Pokedex', i).abilities = baseSpecies.abilities;
+				this.modData('Pokedex', i).heightm = baseSpecies.heightm;
+				this.modData('Pokedex', i).weightkg = baseSpecies.weightkg;
+				this.modData('Pokedex', i).color = baseSpecies.color;
+				this.modData('Pokedex', i).prevo = baseSpecies.prevo;
+				this.modData('Pokedex', i).evoLevel = baseSpecies.evoLevel;
+				this.modData('Pokedex', i).eggGroups = baseSpecies.eggGroups;
+				this.modData('Pokedex', i).cosmeticFormes = baseSpecies.cosmeticFormes;
+				this.modData('Pokedex', i).formeOrder = baseSpecies.formeOrder;
+				this.data.Learnsets[i] = this.modData('Learnsets', baseID);
+				// Set to hidden formes tier
+				this.data.FormatsData[i] = {tier: "Forme"};
+			}
+		}
+	},
 	teambuilderConfig: {
 		graphicsGen: 2,
 		excludeStandardTiers: true,

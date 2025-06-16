@@ -25,6 +25,8 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	arbok: {
 		inherit: true,
+		cosmeticFormes: ["Arbok-Kanto"],
+		formeOrder: ["Arbok", "Arbok-Kanto"],
 	},
 	arcaninehisui: {
 		inherit: true,
@@ -1136,5 +1138,11 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	zubat: {
 		inherit: true,
 		abilities: {0: "Inner Focus", 1: "Anticipation", H: "Infiltrator"},
+	},
+	// COSMETIC FORMES
+	// Handled in scripts.ts
+	arbokkanto: {
+		name: "Arbok-Kanto",
+		isCosmeticForme: true,
 	},
 };
