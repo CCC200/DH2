@@ -504,6 +504,8 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	magikarp: {
 		inherit: true,
+		cosmeticFormes: ["Magikarp-Bubbles", "Magikarp-Calico-One", "Magikarp-Calico-Two", "Magikarp-Calico-Three", "Magikarp-Dapples", "Magikarp-Diamonds", "Magikarp-Forehead-One", "Magikarp-Forehead-Two", "Magikarp-Mask-One", "Magikarp-Mask-Two", "Magikarp-Orca", "Magikarp-Patches", "Magikarp-Raindrop", "Magikarp-Saucy", "Magikarp-Skelly", "Magikarp-Stripe", "Magikarp-Tiger", "Magikarp-Two-Tone", "Magikarp-Zebra"],
+		formeOrder: ["Magikarp", "Magikarp-Bubbles", "Magikarp-Calico-One", "Magikarp-Calico-Two", "Magikarp-Calico-Three", "Magikarp-Dapples", "Magikarp-Diamonds", "Magikarp-Forehead-One", "Magikarp-Forehead-Two", "Magikarp-Mask-One", "Magikarp-Mask-Two", "Magikarp-Orca", "Magikarp-Patches", "Magikarp-Raindrop", "Magikarp-Saucy", "Magikarp-Skelly", "Magikarp-Stripe", "Magikarp-Tiger", "Magikarp-Two-Tone", "Magikarp-Zebra"],
 	},
 	magmar: {
 		inherit: true,
@@ -1171,6 +1173,82 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	gyaradosred: {
 		name: "Gyarados-Red",
+		isCosmeticForme: true,
+	},
+	magikarpbubbles: {
+		name: "Magikarp-Bubbles",
+		isCosmeticForme: true,
+	},
+	magikarpcalicoone: {
+		name: "Magikarp-Calico-One",
+		isCosmeticForme: true,
+	},
+	magikarpcalicotwo: {
+		name: "Magikarp-Calico-Two",
+		isCosmeticForme: true,
+	},
+	magikarpcalicothree: {
+		name: "Magikarp-Calico-Three",
+		isCosmeticForme: true,
+	},
+	magikarpdapples: {
+		name: "Magikarp-Dapples",
+		isCosmeticForme: true,
+	},
+	magikarpdiamonds: {
+		name: "Magikarp-Diamonds",
+		isCosmeticForme: true,
+	},
+	magikarpforeheadone: {
+		name: "Magikarp-Forehead-One",
+		isCosmeticForme: true,
+	},
+	magikarpforeheadtwo: {
+		name: "Magikarp-Forehead-Two",
+		isCosmeticForme: true,
+	},
+	magikarpmaskone: {
+		name: "Magikarp-Mask-One",
+		isCosmeticForme: true,
+	},
+	magikarpmasktwo: {
+		name: "Magikarp-Mask-Two",
+		isCosmeticForme: true,
+	},
+	magikarporca: {
+		name: "Magikarp-Orca",
+		isCosmeticForme: true,
+	},
+	magikarppatches: {
+		name: "Magikarp-Patches",
+		isCosmeticForme: true,
+	},
+	magikarpraindrop: {
+		name: "Magikarp-Raindrop",
+		isCosmeticForme: true,
+	},
+	magikarpsaucy: {
+		name: "Magikarp-Saucy",
+		isCosmeticForme: true,
+	},
+	magikarpskelly: {
+		name: "Magikarp-Skelly",
+		isCosmeticForme: true,
+	},
+	magikarpstripe: {
+		name: "Magikarp-Stripe",
+		isCosmeticForme: true,
+	},
+	magikarptiger: {
+		name: "Magikarp-Tiger",
+		isCosmeticForme: true,
+	},
+	magikarptwotone: {
+		name: "Magikarp-Two-Tone",
+		isCosmeticForme: true,
+	},
+	magikarpzebra: {
+		name: "Magikarp-Zebra",
 		isCosmeticForme: true,
 	},
 	pichuspikyeared: {
