@@ -25,8 +25,8 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	},
 	arbok: {
 		inherit: true,
-		cosmeticFormes: ["Arbok-Kanto"],
-		formeOrder: ["Arbok", "Arbok-Kanto"],
+		cosmeticFormes: ["Arbok-Kanto", "Arbok-Agatha", "Arbok-Ariana", "Arbok-Koga"],
+		formeOrder: ["Arbok", "Arbok-Kanto", "Arbok-Agatha", "Arbok-Ariana", "Arbok-Koga"],
 	},
 	arcaninehisui: {
 		inherit: true,
@@ -1143,6 +1143,18 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 	// Handled in scripts.ts
 	arbokkanto: {
 		name: "Arbok-Kanto",
+		isCosmeticForme: true,
+	},
+	arbokagatha: {
+		name: "Arbok-Agatha",
+		isCosmeticForme: true,
+	},
+	arbokariana: {
+		name: "Arbok-Ariana",
+		isCosmeticForme: true,
+	},
+	arbokkoga: {
+		name: "Arbok-Koga",
 		isCosmeticForme: true,
 	},
 };
