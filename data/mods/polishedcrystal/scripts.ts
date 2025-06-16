@@ -16,12 +16,13 @@ export const Scripts: {[k: string]: ModdedBattleScriptsData} = {
 				this.modData('Pokedex', i).weightkg = baseSpecies.weightkg;
 				this.modData('Pokedex', i).color = baseSpecies.color;
 				this.modData('Pokedex', i).prevo = baseSpecies.prevo;
+				this.modData('Pokedex', i).evos = baseSpecies.evos;
 				this.modData('Pokedex', i).evoLevel = baseSpecies.evoLevel;
 				this.modData('Pokedex', i).eggGroups = baseSpecies.eggGroups;
 				this.modData('Pokedex', i).cosmeticFormes = baseSpecies.cosmeticFormes;
 				this.modData('Pokedex', i).formeOrder = baseSpecies.formeOrder;
 				this.data.Learnsets[i] = this.modData('Learnsets', baseID);
-				// Set to hidden formes tier
+				// Set to formes tier to not clog teambuilder
 				this.data.FormatsData[i] = {tier: "Forme"};
 			}
 		}
