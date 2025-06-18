@@ -1,5 +1,15 @@
 export const Scripts: ModdedBattleScriptsData = {
 	inherit: 'gen1',
+	init() {
+		// Restore gen 1 move descriptions
+		for(const i in this.data.Moves) {
+			const move = this.moves.get(i);
+			if(move.gen === 1) {
+				this.modData('Moves', i).desc = move.desc;
+				this.modData('Moves', i).shortDesc = move.shortDesc;
+			}
+		}
+	},
 	teambuilderConfig: {
 		rbyTradebacks: true,
 		moveIsNotUseless(id: ID): boolean {
