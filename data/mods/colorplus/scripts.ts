@@ -14,7 +14,7 @@ export const Scripts: ModdedBattleScriptsData = {
 		rbyTradebacks: true,
 		moveIsNotUseless(id: ID): boolean {
 			const NOT_USELESS = [
-				'irontail', 'dragonbreath', 'karatechop',
+				'dragonbreath', 'karatechop',
 			];
 			if(NOT_USELESS.includes(id)) return true;
 		},
