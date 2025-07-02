@@ -92,6 +92,7 @@ export const Formats: FormatList = [
 		mod: 'gen8',
 		ruleset: ['Standard', 'Dynamax Clause'],
 		banlist: ['Uber', 'AG', 'Arena Trap', 'Moody', 'Power Construct', 'Sand Veil', 'Shadow Tag', 'Snow Cloak', 'King\'s Rock', 'Baton Pass'],
+		searchShow: false,
 	},
 	{
 		name: "[Gen 7] OU",
@@ -104,6 +105,7 @@ export const Formats: FormatList = [
 		mod: 'gen7',
 		ruleset: ['Standard'],
 		banlist: ['Uber', 'Arena Trap', 'Power Construct', 'Shadow Tag', 'Baton Pass'],
+		searchShow: false,
 	},
 	{
 		name: "[Gen 6] OU",
@@ -116,6 +118,7 @@ export const Formats: FormatList = [
 		mod: 'gen6',
 		ruleset: ['Standard', 'Swagger Clause'],
 		banlist: ['Uber', 'Arena Trap', 'Shadow Tag', 'Soul Dew', 'Baton Pass'],
+		searchShow: false,
 	},
 	{
 		name: "[Gen 5] OU",
@@ -128,6 +131,7 @@ export const Formats: FormatList = [
 		mod: 'gen5',
 		ruleset: ['Standard', 'Evasion Abilities Clause', 'Sleep Moves Clause', 'Swagger Clause', 'Gems Clause', 'Baton Pass Stat Clause'],
 		banlist: ['Uber', 'Arena Trap', 'Drizzle ++ Swift Swim', 'Drought ++ Chlorophyll', 'Sand Rush', 'Shadow Tag', 'King\'s Rock', 'Razor Fang', 'Soul Dew', 'Assist'],
+		searchShow: false,
 	},
 	{
 		name: "[Gen 4] OU",
@@ -140,6 +144,7 @@ export const Formats: FormatList = [
 		mod: 'gen4',
 		ruleset: ['Standard', 'Evasion Abilities Clause', 'Baton Pass Stat Trap Clause', 'Freeze Clause Mod'],
 		banlist: ['AG', 'Uber', 'Arena Trap', 'Quick Claw', 'Soul Dew', 'Swagger'],
+		searchShow: false,
 	},
 	{
 		name: "[Gen 3] OU",
@@ -152,6 +157,7 @@ export const Formats: FormatList = [
 		mod: 'gen3',
 		ruleset: ['Standard', 'One Boost Passer Clause', 'Freeze Clause Mod'],
 		banlist: ['Uber', 'Smeargle + Ingrain', 'Sand Veil', 'Soundproof', 'Assist', 'Baton Pass + Block', 'Baton Pass + Mean Look', 'Baton Pass + Spider Web', 'Swagger'],
+		searchShow: false,
 	},
 	{
 		name: "[Gen 2] OU",
@@ -164,6 +170,7 @@ export const Formats: FormatList = [
 		mod: 'gen2',
 		ruleset: ['Standard'],
 		banlist: ['Uber', 'Mean Look + Baton Pass', 'Spider Web + Baton Pass'],
+		searchShow: false,
 	},
 	{
 		name: "[Gen 1] OU",
@@ -176,6 +183,7 @@ export const Formats: FormatList = [
 		mod: 'gen1',
 		ruleset: ['Standard'],
 		banlist: ['Uber'],
+		searchShow: false,
 	},
 	{
 		name: "[Gen 1] Custom Game",
