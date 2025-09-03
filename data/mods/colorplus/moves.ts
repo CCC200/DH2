@@ -30,10 +30,20 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		gen: 1,
 		category: "Physical",
 	},
+	metalclaw: {
+		inherit: true,
+		gen: 1,
+		category: "Physical",
+	},
 	sludgebomb: {
 		inherit: true,
 		gen: 1,
 		category: "Physical",
+	},
+	gigadrain: {
+		inherit: true,
+		gen: 1,
+		category: "Special",
 	},
 	// Updated moves
 	bite: {
@@ -46,5 +56,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		inherit: true,
 		gen: 1,
         type: "Fighting",
+	},
+	gust: {
+		inherit: true,
+		gen: 1,
+		type: "Flying",
 	},
 };

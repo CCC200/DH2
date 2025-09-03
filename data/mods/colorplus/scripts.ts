@@ -14,9 +14,13 @@ export const Scripts: ModdedBattleScriptsData = {
 		rbyTradebacks: true,
 		moveIsNotUseless(id: ID): boolean {
 			const NOT_USELESS = [
-				'dragonbreath', 'karatechop',
+				'dragonbreath', 'karatechop', 'gigadrain',
+			];
+			const NOW_USELESS = [
+				'megadrain',
 			];
 			if(NOT_USELESS.includes(id)) return true;
+			if(NOW_USELESS.includes(id)) return false;
 		},
 	},
 	actions: {
