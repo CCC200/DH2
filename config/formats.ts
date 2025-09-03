@@ -61,7 +61,6 @@ export const Formats: FormatList = [
 		ruleset: ['Standard'],
 		banlist: ['Uber'],
 		searchShow: false,
-		debug: true,
 	},
 	// Draft
 	{
