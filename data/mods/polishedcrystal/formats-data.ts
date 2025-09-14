@@ -18,7 +18,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "OU",
 	},
 	annihilape: {
-		tier: "Uber",
+		tier: "OU",
 	},
 	arbok: {
 		tier: "OU",
@@ -111,7 +111,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "OU",
 	},
 	corsolagalar: {
-		tier: "OU",
+		tier: "NFE",
 	},
 	corsola: {
 		tier: "OU",
@@ -906,7 +906,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "ZU",
 	},
 	ursalunabloodmoon: {
-		tier: "Uber",
+		tier: "OU",
 	},
 	ursaluna: {
 		tier: "OU",
