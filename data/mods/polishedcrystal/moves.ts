@@ -1,5 +1,10 @@
 export const Moves: {[k: string]: ModdedMoveData} = {
-    cut: {
+    blizzard: {
+		inherit: true,
+		desc: "Has a 10% chance to freeze the target. If the weather is Hail, this move does not check accuracy.",
+		shortDesc: "10% chance to freeze foe(s). Can't miss in Hail.",
+	},
+	cut: {
         inherit: true,
         accuracy: 100,
         basePower: 60,
@@ -645,9 +650,6 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		inherit: true,
 	},
 	hail: {
-		inherit: true,
-	},
-	blizzard: {
 		inherit: true,
 	},
 	avalanche: {
