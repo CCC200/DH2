@@ -119,7 +119,7 @@ export const Scripts: {[k: string]: ModdedBattleScriptsData} = {
 			"Protective Pads",
 			"Throat Spray",
 			"Eject Pack",
-			"Heavy Boots",
+			"Heavy-Duty Boots",
 			"Blunder Policy",
 			"Room Service",
 			"Clear Amulet",
