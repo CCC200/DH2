@@ -406,12 +406,6 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		types: ["Normal"],
 		abilities: {0: "Run Away", 1: "Adaptability", H: "Anticipation"},
 	},
-	egg: {
-		inherit: true,
-		baseStats: {hp: 10, atk: 10, def: 10, spa: 10, spd: 10, spe: 10},
-		types: ["Normal"],
-		abilities: {0: "No Ability"},
-	},
 	ekans: {
 		inherit: true,
 		baseStats: {hp: 35, atk: 60, def: 44, spa: 40, spd: 54, spe: 55},
