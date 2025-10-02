@@ -1,4 +1,8 @@
 export const Items: {[k: string]: ModdedItemData} = {
+    // TODO: Add armor suit
+    // armorsuit: {
+    //     
+    // },
     // Updated items
     berserkgene: {
         inherit: true,
@@ -162,25 +166,10 @@ export const Items: {[k: string]: ModdedItemData} = {
     kingsrock: {
         inherit: true,
     },
-    amuletcoin: {
-        inherit: true,
-    },
-    cleansetag: {
-        inherit: true,
-    },
-    smokeball: {
-        inherit: true,
-    },
     focusband: {
         inherit: true,
     },
-    luckyegg: {
-        inherit: true,
-    },
     leftovers: {
-        inherit: true,
-    },
-    soothebell: {
         inherit: true,
     },
     shellbell: {
@@ -301,9 +290,6 @@ export const Items: {[k: string]: ModdedItemData} = {
         inherit: true,
     },
     quickpowder: {
-        inherit: true,
-    },
-    armorsuit: {
         inherit: true,
     },
     scopelens: {
