@@ -42,7 +42,6 @@ export const Formats: FormatList = [
 		ruleset: ['Standard', 'Little Cup', 'Data Mod'],
 		teambuilderFormat: 'National Dex',
 		banlist: ['Uber', 'OU', 'UUBL', 'UU', 'RUBL', 'RU', 'NUBL', 'NU', 'PUBL', 'PU', 'ZUBL', 'ZU', 'NFE'],
-		searchShow: false,
 	},
 	{
 		name: "[Gen 9] Polished Crystal AG",
@@ -60,7 +59,6 @@ export const Formats: FormatList = [
 		mod: 'colorplus',
 		ruleset: ['Standard'],
 		banlist: ['Uber'],
-		searchShow: false,
 	},
 	// Draft
 	{
